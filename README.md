@@ -1,3 +1,5 @@
+[![Run on Repl.it](https://repl.it/badge/github/GrapesMaster98/Teemonio)](https://repl.it/github/GrapesMaster98/Teemonio)
+
 # Antes de usar mi código...
 
 No me molesta que uses mi código para aprender, pero no seas un molesto, no tienes permitido tomar este código como propio.
