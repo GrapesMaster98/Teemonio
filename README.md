@@ -34,7 +34,7 @@ Inicia el bot.
 ```sh
 npm run dev
 ```
-(Esto iniciará el bot en modo de desarrollo, si quieres iniciar al bot en modo de build usa ```sh npm run start``` )
+(Esto iniciará el bot en modo de desarrollo, si quieres iniciar al bot en modo de build usa `npm run start` )
 
 ¡Listo! El bot esta funcionando como debería.
 
