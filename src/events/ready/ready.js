@@ -11,7 +11,7 @@ module.exports = class ReadyEvent extends BaseEvent {
         name: 'No me uses, estoy en re-programación.',
         type: 'PLAYING'
       },
-      status: 'dnd'
+      status: 'online'
     });    
   }
 }
