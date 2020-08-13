@@ -38,4 +38,48 @@ npm run dev
 
 ¡Listo! El bot esta funcionando como debería.
 
-Crea un pull request si quieres añadir tus cambios al bot, cualquier duda, contactame por Discord, me encontrarás en Trashbucks o añademe (LaUva#1812)
+##Añadir un comando nuevo 🔧
+
+Para añadir un nuevo comando debes seguir estos pasos:
+
+Escoge o crea una categoría para el comando, cada categoría está ubicada en su respectiva carpeta, primero accede a la categoría correcta.
+
+```sh
+cd .\src\commands\CATEGIORIA\
+```
+
+O crea una categoría nueva para el comando.
+
+```sh
+cd .\src\commands\
+mkdir CATEGORIA
+```
+
+Una vez dentro de la categoría, tendrás que usar esta base para crear el comando:
+```javascript
+const BaseCommand = require('../../utils/structures/BaseCommand');
+
+module.exports = class NombreDelComandoAqui extends BaseCommand {
+  constructor() {
+    super('comando', 'categoria', ['alases', 'alias']);
+  }
+
+  run(client, message, args) {
+  //Lógica del comando aquí.
+  }
+}
+```
+
+**Es muy importante que la clase tenga el mismo nombre que el archivo .js**
+Ejemplo:
+`meme.js`
+
+Código:
+
+```javascript
+module.exports = class meme extends BaseCommand {
+constructor() {
+  super('meme', 'fun', []);
+}
+}
+```
