@@ -38,7 +38,7 @@ npm run dev
 
 ¡Listo! El bot esta funcionando como debería.
 
-##Añadir un comando nuevo 🔧
+## Añadir un comando nuevo 🔧
 
 Para añadir un nuevo comando debes seguir estos pasos:
 
